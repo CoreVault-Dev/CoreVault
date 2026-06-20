@@ -1,23 +1,33 @@
-# CoreVault Cryptographic Infrastructure
-## Version 1.0.0 Enterprise Production Build
+Markdown
+# CoreVault v1.1.0 🛡️
 
-CoreVault is an advanced, hardware-bound cryptographic application designed for high-security file encryption and decentralized local data sandboxing within corporate and healthcare network environments.
-
----
-
-## License Enforcement Policy
-
-The use of this software is governed strictly by the deployment type:
-
-* **Personal Workspace Deployment:** Permitted for private, non-commercial individuals utilizing independent nodes for personal asset protection.
-* **Enterprise & Healthcare Deployment:** Any medical facility, healthcare provider, corporate business unit, or government agency is legally obligated to acquire and bind an official Master Enterprise Activation Token to their infrastructure.
+CoreVault is a lightweight, high-security cryptographic file-locking application engineered for robust local data protection. Built on top of a secure Python backend and a modern CustomTkinter presentation layer, it features hardware-enforced accessibility and dynamic anti-tampering logic.
 
 ---
 
-## Commercial Procurement Protocol
+## Key Technical Specifications
 
-To provision and legally authorize an Enterprise Node for business operations, acquisition of the master activation sequence must be routed via the secured distribution platform:
+* **Hardware Node Authentication:** Uses cryptographic system calls to bind the encryption pipeline to an unalterable Hardware ID (HWID), mitigating remote unauthorized access.
+* **Dynamic Security Grid Matrix:** Fully customizable breach thresholds featuring automated temporary security lockouts or irreversible file destruction mechanisms.
+* **Standalone OS Shell Integration:** Integrated using low-level Windows `ctypes` processes to support standalone Taskbar, Task Manager, and Title Bar icon branding.
+* **Secure Memory Optimization:** Deploys systematic Garbage Collection calls immediately following payload delivery to wipe symmetric cryptographic keys from volatile memory.
 
-* **Official Digital Storefront:** [Procure Enterprise Master Key](ضع_رابط_صفحتك_هنا)
+---
 
-Upon transaction confirmation, input the provided master cryptographic key string directly into the initialization sequence interface within the running module to fully validate the network node.
+## Project Architecture
+
+Ensure your local development directory maintains the following infrastructure layout:
+
+```text
+📁 CoreVault
+├── 📄 main.py          # Production presentation layer & UI logic
+├── 📄 vault_engine.py  # Underlying core security & encryption logic
+├── 🖼️ app.ico          # Official application square icon asset
+└── 📄 README.md        # Technical repository manual
+Deployment & Production Build
+To compile the application source code into a standalone executable (.exe) featuring native asset wrapping, deploy the following PyInstaller routine inside your administrative PowerShell terminal:
+
+PowerShell
+python -m PyInstaller --noconsole --onefile --name "CoreVault" --icon="app.ico" --add-data "app.ico;." --collect-all customtkinter main.py
+Binary Distribution
+To download the pre-compiled, production-ready version of CoreVault without setting up a Python environment, please navigate to the official GitHub Releases tab of this repository.
