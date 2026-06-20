@@ -1,4 +1,3 @@
-Markdown
 # CoreVault v1.1.0 🛡️
 
 CoreVault is a lightweight, high-security cryptographic file-locking application engineered for robust local data protection. Built on top of a secure Python backend and a modern CustomTkinter presentation layer, it features hardware-enforced accessibility and dynamic anti-tampering logic.
