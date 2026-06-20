@@ -1,13 +1,21 @@
-COREVAULT ENTERPRISE COMMERCIAL AND END-USER LICENSE AGREEMENT (EULA)
-VERSION 1.0.0 — PRODUCTION BUILD (2026)
+MIT License
 
-This document establishes a legally binding contract between the end-user (Individual or Corporate Entity) and CoreVault Security Operations regarding the application deployment.
+Copyright (c) [2026] [CoreVault]
 
-1. PERSONAL WORKSPACE ALLOWANCE (NON-COMMERCIAL)
-CoreVault grants a non-exclusive, non-transferable, revocable license to individual private citizens to execute the cryptographic binary solely for personal, non-commercial data sanitation and asset isolation.
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
 
-2. CORPORATE, MEDICAL, AND GOVERNED AGENCY DEPLOYMENT RESTRICTION
-Any deployment within a facility, medical center, healthcare network, financial institution, enterprise network, or government facility is strictly prohibited unless an official Master Enterprise Activation Token is bought and permanently validated on the network nodes.
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
 
-3. COMPLIANCE AUDITING AND TAMPER CONTROL
-Unauthorized commercial configurations executed without localized master cryptographic registration constitute an explicit breach of copyright law and international proprietary software protection treaties. CoreVault reserves the right to enforce localized node termination loops if systemic license validation failures are registered.
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
